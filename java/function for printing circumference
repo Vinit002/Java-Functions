@@ -1,0 +1,23 @@
+package com.company;
+
+import java.util.*;
+
+public class Main {
+
+    public static void printCircumference(int r){
+
+        System.out.println(2*22*r/7);
+
+        return ;
+
+    }
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        int r = sc.nextInt();
+
+       printCircumference(r);
+
+    }
+}
